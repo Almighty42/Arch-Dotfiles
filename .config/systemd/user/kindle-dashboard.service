@@ -1,0 +1,7 @@
+[Unit]
+Description=Render and push Kindle day/week dashboard
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/Almighty42/Development/Code/Projects-Code/Planner
+ExecStart=/home/Almighty42/Development/Code/Projects-Code/Planner/upload.sh

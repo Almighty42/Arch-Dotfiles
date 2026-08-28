@@ -1,0 +1,50 @@
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+st.font:         Berkeley Mono:style:medium:pixelsize=14
+
+! window padding
+st.borderpx: 10
+
+!- 0.1 to 0.9 = transparency
+st.alpha: 1.0
+
+! Gruvbox Material Light-ish
+*background: #fbf1c7
+*foreground: #654735
+
+! Black + DarkGrey
+*color0:  #3c3836
+*color8:  #504945
+
+! DarkRed + Red
+*color1:  #c14a4a
+*color9:  #cc241d
+
+! DarkGreen + Green
+*color2:  #6c782e
+*color10: #98971a
+
+! DarkYellow + Yellow
+*color3:  #c35e0a
+*color11: #d79921
+
+! DarkBlue + Blue
+*color4:  #45707a
+*color12: #458588
+
+! DarkMagenta + Magenta
+*color5:  #945e80
+*color13: #b16286
+
+! DarkCyan + Cyan
+*color6:  #4c7a5d
+*color14: #689d6a
+
+! LightGrey + White
+*color7:  #bdae93
+*color15: #f2e5bc

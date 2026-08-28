@@ -1,0 +1,51 @@
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+st.font:         Berkeley Mono:style:medium:pixelsize=14
+
+! window padding
+st.borderpx: 10
+
+st.alpha: 1.0
+
+Catppuccin Frappe
+
+*background: #303446
+*foreground: #c6d0f5
+*cursorColor: #f2d5cf
+
+! black
+*color0: #51576d
+*color8: #626880
+
+! red
+*color1: #e78284
+*color9: #e78284
+
+! green
+*color2: #a6d189
+*color10: #a6d189
+
+! yellow
+*color3: #e5c890
+*color11: #e5c890
+
+! blue
+*color4: #8caaee
+*color12: #8caaee
+
+! magenta
+*color5: #f4b8e4
+*color13: #f4b8e4
+
+! cyan
+*color6: #81c8be
+*color14: #81c8be
+
+! white
+*color7: #b5bfe2
+*color15: #a5adce

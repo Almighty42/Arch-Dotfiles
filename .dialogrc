@@ -1,0 +1,88 @@
+#
+# NightTokyo inspired colors for dialog
+#
+
+aspect = 0
+separate_widget = ""
+tab_len = 0
+visit_items = OFF
+use_scrollbar = OFF
+use_shadow = ON
+use_colors = ON
+
+# Screen background - deep dark navy
+screen_color = (BLACK,BLACK,ON)
+
+# Shadow color - very dark gray (subtle)
+shadow_color = (BLACK,BLACK,ON)
+
+# Dialog box background - dark navy blue
+dialog_color = (CYAN,BLACK,OFF)
+
+# Dialog box title - bright teal/blue-green on dark background
+title_color = (CYAN,BLACK,ON)
+
+# Dialog box border - medium dark cyan
+border_color = (BLUE,BLACK,ON)
+
+# Active button color - bright pinkish magenta on dark background
+button_active_color = (MAGENTA,BLACK,ON)
+
+# Inactive button color - dim cyan on black
+button_inactive_color = (CYAN,BLACK,OFF)
+
+# Active button key color - same as active button color
+button_key_active_color = (MAGENTA,BLACK,ON)
+
+# Inactive button key color - muted gray on black
+button_key_inactive_color = (BLACK,BLACK,OFF)
+
+# Active button label color - bright magenta/pink text on dark background
+button_label_active_color = (MAGENTA,BLACK,ON)
+
+# Inactive button label color - dim cyan on dark background
+button_label_inactive_color = (CYAN,BLACK,OFF)
+
+# Input box background and foreground (slightly lighter navy)
+inputbox_color = (CYAN,BLACK,OFF)
+inputbox_border_color = (BLUE,BLACK,ON)
+
+# Search box(s) - consistent with dialog box
+searchbox_color = (CYAN,BLACK,OFF)
+searchbox_title_color = (CYAN,BLACK,ON)
+searchbox_border_color = (BLUE,BLACK,ON)
+
+# Position indicator (used in scrollbars/lists) - bright cyan
+position_indicator_color = (CYAN,BLACK,ON)
+
+# Menu related colors - cyan/dark blues consistent with theme
+menubox_color = (CYAN,BLACK,OFF)
+menubox_border_color = (BLUE,BLACK,ON)
+
+item_color = (CYAN,BLACK,OFF)
+item_selected_color = (MAGENTA,BLACK,ON)
+
+tag_color = (CYAN,BLACK,ON)
+tag_selected_color = (MAGENTA,BLACK,ON)
+
+tag_key_color = (BLACK,BLACK,OFF)
+tag_key_selected_color = (MAGENTA,BLACK,ON)
+
+check_color = (CYAN,BLACK,OFF)
+check_selected_color = (MAGENTA,BLACK,ON)
+
+uarrow_color = (MAGENTA,BLACK,ON)
+darrow_color = (MAGENTA,BLACK,ON)
+
+itemhelp_color = (CYAN,BLACK,OFF)
+
+form_active_text_color = (MAGENTA,BLACK,ON)
+form_text_color = (CYAN,BLACK,OFF)
+form_item_readonly_color = (BLUE,BLACK,OFF)
+
+gauge_color = (MAGENTA,BLACK,ON)
+
+border2_color = (CYAN,BLACK,OFF)
+inputbox_border2_color = (CYAN,BLACK,OFF)
+searchbox_border2_color = (CYAN,BLACK,OFF)
+menubox_border2_color = (CYAN,BLACK,OFF)

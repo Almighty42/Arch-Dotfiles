@@ -2,8 +2,6 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 
-#export QT_QPA_PLATFORMTHEME=qt5ct
-
 # ENVIROMENT VARIABLES
 export RANGER_LOAD_DEFAULT_RC=false
 export EDITOR=nvim
@@ -126,14 +124,13 @@ plugins=(
   common-aliases
   zsh-autosuggestions
   systemd
-  #zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -163,16 +160,11 @@ alias CC='xclip -selection clipboard'
 alias ls="lsd"
 alias v="nvim"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias s="$HOME/Downloads/Songs_and_podcasts/"
-alias p="python3"
 alias sourc="source ./.venv/bin/activate"
-alias pck="pacseek"
 alias timer_25="tclock timer -d 25m -e aplay ~/Music/timer_alarm.wav && echo 25m >> ~/timer.txt"
 alias timer_5="tclock timer -d 5m -e aplay ~/Music/timer_alarm.wav && echo 5m >> ~/timer.txt"
-alias filestui="dua i"
 alias rel="xrdb merge $HOME/.Xresources && kill -USR1 $(pidof st)"
 alias sudo="sudo -A"
-
 alias ctree='tree | xclip -selection clipboard'
 
 # TUI Apps

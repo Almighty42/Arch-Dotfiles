@@ -1,0 +1,49 @@
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+st.font:         Berkeley Mono:style:medium:pixelsize=14
+
+! window padding
+st.borderpx: 10
+
+Everforest Light
+
+*background: #FDF6E3
+*foreground: #5C6A72
+*cursorColor: #5C6A72
+
+! black
+*color0: #EFEBD4
+*color8: #BDC3AF
+
+! red
+*color1: #F85552
+*color9: #F85552
+
+! green
+*color2: #8DA101
+*color10: #8DA101
+
+! yellow
+*color3: #DFA000
+*color11: #DFA000
+
+! blue
+*color4: #3A94C5
+*color12: #3A94C5
+
+! magenta
+*color5: #DF69BA
+*color13: #DF69BA
+
+! cyan
+*color6: #35A77C
+*color14: #35A77C
+
+! white
+*color7: #A6B0A0
+*color15: #5C6A72
