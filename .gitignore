@@ -1,0 +1,25 @@
+# Ignore everything by default
+/*
+
+# Explicitly allow top-level dotfiles
+!/.zshrc
+!/.p10k.zsh
+!/.clang-format
+!/.xinitrc
+!/.gitignore
+!/README.md
+!/install.sh
+!/fonts
+!/.oh-my-zsh
+
+# Allow .config, but block its contents by default too
+!/.config
+/.config/*
+
+# Only re-allow the specific app configs you actually rice
+!/.config/nvim
+!/.config/polybar
+!/.config/rofi
+!/.config/awesome
+!/.config/ranger
+!/.config/qutebrowser

@@ -1,0 +1,9 @@
+# Ignore Neovim plugin manager downloaded plugins
+# Common paths for various plugin managers:
+pack/
+lazy/
+# If using vim-plug
+plugged/
+# If other plugins are installed in subdirectories that are themselves git repos
+# (e.g., if you install a plugin manually and it's a git repo)
+# add their relative paths here.
