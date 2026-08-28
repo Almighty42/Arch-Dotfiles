@@ -194,10 +194,9 @@ yt() {
   scrapetubefzf $1 $2 $3 $4 $5 $6 $7 $8 $9 $10
 }
 
-source $HOME/.config/nvim/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-#source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/home/Almighty42/.local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/share/dotnet:$PATH"
